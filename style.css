@@ -1,0 +1,25 @@
+.container {
+    font-family: segoe ui;
+    margin-left: 12%;
+    font-weight: 100;
+}
+
+.photo {
+    width: 170px;
+    border-radius: 170px;
+    box-shadow: 0px 0px 10px 0px #b52f5b;
+
+}
+
+.icon {
+    width: 12px;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+h1, h2 {
+ font-weight: 200;
+}
