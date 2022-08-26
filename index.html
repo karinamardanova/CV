@@ -1,55 +1,42 @@
 <!DOCTYPE html>
-<html> 
-<head>
-	<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Адаптивная вёрстка сайта</title>
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Playfair+Display:400,700&subset=latin,cyrillic">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-</head>
-</head>
-<header>
-<link rel="stylesheet" href="style.css">
-</header>
-
-<body class="container"> 
-	<h1>Karina Mardanova</h1>
-    <h2>QA Engineer🔎</h2>
-
-       <div class="item">
-       		<img class="photo" src="C:\Users\79816\Desktop\site\img\profile.jpg">
-
-       </div>
-<h2>Contact me</h2>
-<div class="contacts">
-	<div class=contact>
-		<img src="C:\Users\79816\Desktop\site\img\Telegram_logo.svg" class="icon">
-		<a href="https://t.me/krnrstmvn">telegram</a>
-		<br>
-		<img src="C:\Users\79816\Desktop\site\img\Instagram_logo_2016.svg" class="icon">
-	    <a href="https://instagram.com/karinakereytova">instagram</a>
-	    <br>
-	    <img src="C:\Users\79816\Desktop\site\img\VK.com-logo.svg" class="icon">
-	    <a href="https://vk.com/karinamardanova">vkontakte</a>
-	    <br>
-	    <img src="C:\Users\79816\Desktop\site\img\LinkedIn_icon.svg" class="icon">
-	    <a href="https://www.linkedin.com/in/karinamardanova">linkedin</a>
-
-
-	</div>
-	
-	
-	<br>
-</div>
-
-	
-</div>
-
-
-
-
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./normalize.css" rel="stylesheet" />
+    <link href="./studio.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.29/dist/sweetalert2.all.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Karina Mardanova</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="C:\Users\79816\Desktop\site 1\img\profile.jpg" alt="avatar" class="header__avatar" />
+      <h1 class="header__title">Karina Mardanova</h1>
+    </header>
+    <main>
+      <section class="links">
+        
+        <ul class="links__container">
+          <li class="links__link">
+            <p class="links__title"> <img src="C:\Users\79816\Desktop\site 1\img\Telegram_logo.svg" class="icon"></p>
+            <a class="linsk__link" href="https://t.me/krnrstmvn">@krnrstmvn</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title"> <img src="C:\Users\79816\Desktop\site 1\img\Gmail_icon_(2020).svg" class="icon"></p>
+            <a class="linsk__link" href="mailto:karinakereytova@gmail.com"
+              >karinakereytova@gmail.com</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title"><img src="C:\Users\79816\Desktop\site 1\img\iconmonstr-github-1.svg" class="icon"></p>
+            <a class="linsk__link" href="https://github.com/karinamardanova">github.com/karinamardanova</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <button type = "button" class="button-link" id="credo" onclick="Swal.fire('Занимайтесь тем, что приносит вам удовольствие')"> Жми </button>
+    </footer>
+  </body>
+</html>
