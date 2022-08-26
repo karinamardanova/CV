@@ -2,6 +2,7 @@
     font-family: segoe ui;
     margin-left: 12%;
     font-weight: 100;
+    display: grid;
 }
 
 .photo {
